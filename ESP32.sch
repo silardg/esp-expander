@@ -390,4 +390,41 @@ Wire Wire Line
 	6350 4200 6400 4200
 Wire Wire Line
 	6400 4300 6350 4300
+Text HLabel 6400 2800 2    50   Input ~ 0
+DIGITAL_1
+Text HLabel 6400 3400 2    50   Input ~ 0
+DIGITAL_2
+Text HLabel 6400 2900 2    50   Input ~ 0
+DIGITAL_3
+Text HLabel 6400 4400 2    50   Input ~ 0
+DIGITAL_4
+Text HLabel 6400 4500 2    50   Input ~ 0
+DIGITAL_5
+Text HLabel 6400 3100 2    50   Input ~ 0
+MCP_INTA
+Text HLabel 6400 4700 2    50   Input ~ 0
+MCP_INTB
+NoConn ~ 6350 4600
+NoConn ~ 5150 2600
+NoConn ~ 5150 2700
+Wire Wire Line
+	6350 4700 6400 4700
+Wire Wire Line
+	6400 4500 6350 4500
+Wire Wire Line
+	6400 4400 6350 4400
+Wire Wire Line
+	6350 3400 6400 3400
+Wire Wire Line
+	6350 3100 6400 3100
+Wire Wire Line
+	6350 2900 6400 2900
+Wire Wire Line
+	6400 2800 6350 2800
+NoConn ~ 5150 3600
+NoConn ~ 5150 3700
+NoConn ~ 5150 3800
+NoConn ~ 5150 3900
+NoConn ~ 5150 4000
+NoConn ~ 5150 4100
 $EndSCHEMATC
