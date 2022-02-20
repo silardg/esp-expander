@@ -1,0 +1,393 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L RF_Module:ESP32-WROOM-32D U?
+U 1 1 6212187F
+P 5750 3600
+F 0 "U?" H 5300 4950 50  0000 C CNN
+F 1 "ESP32-WROOM-32D" H 6200 4950 50  0000 C CNN
+F 2 "RF_Module:ESP32-WROOM-32" H 5750 2100 50  0001 C CNN
+F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" H 5450 3650 50  0001 C CNN
+	1    5750 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62122DDA
+P 6700 1500
+F 0 "#PWR?" H 6700 1350 50  0001 C CNN
+F 1 "+3.3V" H 6715 1673 50  0000 C CNN
+F 2 "" H 6700 1500 50  0001 C CNN
+F 3 "" H 6700 1500 50  0001 C CNN
+	1    6700 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621231ED
+P 6000 1750
+F 0 "C?" H 5900 1850 50  0000 L CNN
+F 1 "100nF/6.3V" V 6150 1450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6038 1600 50  0001 C CNN
+F 3 "~" H 6000 1750 50  0001 C CNN
+	1    6000 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621238E7
+P 6350 1750
+F 0 "C?" H 6250 1850 50  0000 L CNN
+F 1 "22uF/6.3V" V 6500 1500 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6388 1600 50  0001 C CNN
+F 3 "~" H 6350 1750 50  0001 C CNN
+	1    6350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 621249CB
+P 6700 1750
+F 0 "C?" H 6818 1796 50  0000 L CNN
+F 1 "100uF/16V" H 6818 1705 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 6738 1600 50  0001 C CNN
+F 3 "~" H 6700 1750 50  0001 C CNN
+	1    6700 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62125CD7
+P 6000 1950
+F 0 "#PWR?" H 6000 1700 50  0001 C CNN
+F 1 "GND" H 6005 1777 50  0000 C CNN
+F 2 "" H 6000 1950 50  0001 C CNN
+F 3 "" H 6000 1950 50  0001 C CNN
+	1    6000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6212619C
+P 6350 1950
+F 0 "#PWR?" H 6350 1700 50  0001 C CNN
+F 1 "GND" H 6355 1777 50  0000 C CNN
+F 2 "" H 6350 1950 50  0001 C CNN
+F 3 "" H 6350 1950 50  0001 C CNN
+	1    6350 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 621264D6
+P 6700 1950
+F 0 "#PWR?" H 6700 1700 50  0001 C CNN
+F 1 "GND" H 6705 1777 50  0000 C CNN
+F 2 "" H 6700 1950 50  0001 C CNN
+F 3 "" H 6700 1950 50  0001 C CNN
+	1    6700 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1900 6000 1950
+Wire Wire Line
+	6350 1900 6350 1950
+Wire Wire Line
+	6700 1900 6700 1950
+Wire Wire Line
+	5750 2200 5750 1550
+Wire Wire Line
+	5750 1550 6000 1550
+Wire Wire Line
+	6700 1550 6700 1600
+Wire Wire Line
+	6350 1550 6350 1600
+Connection ~ 6350 1550
+Wire Wire Line
+	6350 1550 6700 1550
+Wire Wire Line
+	6000 1550 6000 1600
+Connection ~ 6000 1550
+Wire Wire Line
+	6000 1550 6350 1550
+Connection ~ 6700 1550
+Wire Wire Line
+	6700 1500 6700 1550
+$Comp
+L power:GND #PWR?
+U 1 1 62128AD9
+P 5750 5050
+F 0 "#PWR?" H 5750 4800 50  0001 C CNN
+F 1 "GND" H 5755 4877 50  0000 C CNN
+F 2 "" H 5750 5050 50  0001 C CNN
+F 3 "" H 5750 5050 50  0001 C CNN
+	1    5750 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 5000 5750 5050
+Text HLabel 5100 2400 0    50   Input ~ 0
+RESET
+Wire Wire Line
+	5100 2400 5150 2400
+Text HLabel 4200 1450 2    50   Input ~ 0
+RESET
+$Comp
+L Device:C C?
+U 1 1 62129757
+P 4150 1750
+F 0 "C?" H 4050 1850 50  0000 L CNN
+F 1 "100nF/6.3V" V 4300 1450 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4188 1600 50  0001 C CNN
+F 3 "~" H 4150 1750 50  0001 C CNN
+	1    4150 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW?
+U 1 1 6212A51F
+P 3900 1750
+F 0 "SW?" H 3950 1650 50  0000 L CNN
+F 1 "RESET" H 3650 1650 50  0000 L CNN
+F 2 "" H 3900 1950 50  0001 C CNN
+F 3 "~" H 3900 1950 50  0001 C CNN
+	1    3900 1750
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6212BE24
+P 3900 2000
+F 0 "#PWR?" H 3900 1750 50  0001 C CNN
+F 1 "GND" H 3905 1827 50  0000 C CNN
+F 2 "" H 3900 2000 50  0001 C CNN
+F 3 "" H 3900 2000 50  0001 C CNN
+	1    3900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6212C38B
+P 4150 2000
+F 0 "#PWR?" H 4150 1750 50  0001 C CNN
+F 1 "GND" H 4155 1827 50  0000 C CNN
+F 2 "" H 4150 2000 50  0001 C CNN
+F 3 "" H 4150 2000 50  0001 C CNN
+	1    4150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6212C9DD
+P 3900 1250
+F 0 "R?" H 3970 1296 50  0000 L CNN
+F 1 "10K" H 3970 1205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3830 1250 50  0001 C CNN
+F 3 "~" H 3900 1250 50  0001 C CNN
+	1    3900 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 6212D33E
+P 3900 1050
+F 0 "#PWR?" H 3900 900 50  0001 C CNN
+F 1 "+3.3V" H 3915 1223 50  0000 C CNN
+F 2 "" H 3900 1050 50  0001 C CNN
+F 3 "" H 3900 1050 50  0001 C CNN
+	1    3900 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 1950 3900 2000
+Wire Wire Line
+	4150 1900 4150 2000
+Wire Wire Line
+	3900 1400 3900 1450
+Wire Wire Line
+	4150 1600 4150 1450
+Wire Wire Line
+	4150 1450 4200 1450
+Wire Wire Line
+	4150 1450 3900 1450
+Connection ~ 4150 1450
+Connection ~ 3900 1450
+Wire Wire Line
+	3900 1450 3900 1550
+Wire Wire Line
+	3900 1050 3900 1100
+Text HLabel 6400 2400 2    50   Input ~ 0
+PROG_GPIO0
+Text HLabel 6400 2500 2    50   Input ~ 0
+PROG_TX
+Text HLabel 6400 2700 2    50   Input ~ 0
+PROG_RX
+Wire Wire Line
+	6350 2400 6400 2400
+Wire Wire Line
+	6350 2500 6400 2500
+Wire Wire Line
+	6350 2700 6400 2700
+Text GLabel 6400 2600 2    50   Input ~ 0
+ACT_LED
+Wire Wire Line
+	6350 2600 6400 2600
+Text GLabel 3400 1250 1    50   Input ~ 0
+ACT_LED
+$Comp
+L Device:R R?
+U 1 1 621301FE
+P 3400 1450
+F 0 "R?" H 3470 1496 50  0000 L CNN
+F 1 "2K2" H 3470 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3330 1450 50  0001 C CNN
+F 3 "~" H 3400 1450 50  0001 C CNN
+	1    3400 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 621309B2
+P 3400 1800
+F 0 "D?" V 3439 1682 50  0000 R CNN
+F 1 "LED" V 3348 1682 50  0000 R CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 3400 1800 50  0001 C CNN
+F 3 "~" H 3400 1800 50  0001 C CNN
+	1    3400 1800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62131DE7
+P 3400 2000
+F 0 "#PWR?" H 3400 1750 50  0001 C CNN
+F 1 "GND" H 3405 1827 50  0000 C CNN
+F 2 "" H 3400 2000 50  0001 C CNN
+F 3 "" H 3400 2000 50  0001 C CNN
+	1    3400 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1250 3400 1300
+Wire Wire Line
+	3400 1600 3400 1650
+Wire Wire Line
+	3400 1950 3400 2000
+Text HLabel 6400 3300 2    50   Input ~ 0
+I2C_SCL
+Text HLabel 6400 3200 2    50   Input ~ 0
+I2C_SDA
+Wire Wire Line
+	6350 3200 6400 3200
+Wire Wire Line
+	6350 3300 6400 3300
+Text HLabel 4750 1650 3    50   Input ~ 0
+I2C_SCL
+Text HLabel 5050 1650 3    50   Input ~ 0
+I2C_SDA
+$Comp
+L Device:R R?
+U 1 1 6213451D
+P 4750 1450
+F 0 "R?" H 4820 1496 50  0000 L CNN
+F 1 "4K7" H 4820 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4680 1450 50  0001 C CNN
+F 3 "~" H 4750 1450 50  0001 C CNN
+	1    4750 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 62134AD2
+P 5050 1450
+F 0 "R?" H 5120 1496 50  0000 L CNN
+F 1 "4K7" H 5120 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4980 1450 50  0001 C CNN
+F 3 "~" H 5050 1450 50  0001 C CNN
+	1    5050 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 621355DA
+P 4750 1250
+F 0 "#PWR?" H 4750 1100 50  0001 C CNN
+F 1 "+3.3V" H 4765 1423 50  0000 C CNN
+F 2 "" H 4750 1250 50  0001 C CNN
+F 3 "" H 4750 1250 50  0001 C CNN
+	1    4750 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 62135A3B
+P 5050 1250
+F 0 "#PWR?" H 5050 1100 50  0001 C CNN
+F 1 "+3.3V" H 5065 1423 50  0000 C CNN
+F 2 "" H 5050 1250 50  0001 C CNN
+F 3 "" H 5050 1250 50  0001 C CNN
+	1    5050 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 1250 4750 1300
+Wire Wire Line
+	5050 1250 5050 1300
+Wire Wire Line
+	4750 1600 4750 1650
+Wire Wire Line
+	5050 1600 5050 1650
+Text HLabel 6400 3500 2    50   Input ~ 0
+LAN_CLKIN
+Text HLabel 6400 4000 2    50   Input ~ 0
+LAN_MDC
+Text HLabel 6400 3600 2    50   Input ~ 0
+LAN_MDIO
+Text HLabel 6400 4300 2    50   Input ~ 0
+LAN_MODE2
+Text HLabel 6400 4200 2    50   Input ~ 0
+LAN_MODE1
+Text HLabel 6400 4100 2    50   Input ~ 0
+LAN_MODE0
+Text HLabel 6400 3800 2    50   Input ~ 0
+LAN_TXEN
+Text HLabel 6400 3900 2    50   Input ~ 0
+LAN_TXED1
+Text HLabel 6400 3700 2    50   Input ~ 0
+LAN_TXED0
+Text HLabel 6400 3000 2    50   Input ~ 0
+LAN_RESET
+Wire Wire Line
+	6350 3000 6400 3000
+Wire Wire Line
+	6400 3500 6350 3500
+Wire Wire Line
+	6350 3600 6400 3600
+Wire Wire Line
+	6350 3700 6400 3700
+Wire Wire Line
+	6350 3800 6400 3800
+Wire Wire Line
+	6350 3900 6400 3900
+Wire Wire Line
+	6350 4000 6400 4000
+Wire Wire Line
+	6400 4100 6350 4100
+Wire Wire Line
+	6350 4200 6400 4200
+Wire Wire Line
+	6400 4300 6350 4300
+$EndSCHEMATC
