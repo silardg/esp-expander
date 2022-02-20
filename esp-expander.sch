@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "ESP Expander"
 Date "2022-02-20"
 Rev "0.1"
@@ -74,4 +74,30 @@ F19 "MCP14" I R 7400 3950 50
 F20 "MCP15" I R 7400 4050 50 
 F21 "MCP16" I R 7400 4150 50 
 $EndSheet
+$Sheet
+S 3350 2550 550  500 
+U 62173728
+F0 "Programming" 50
+F1 "programming.sch" 50
+F2 "RX" I R 3900 2950 50 
+F3 "TX" I R 3900 2850 50 
+F4 "GPIO0" I R 3900 2750 50 
+F5 "RESET" I R 3900 2650 50 
+$EndSheet
+Wire Wire Line
+	3900 2650 4250 2650
+Wire Wire Line
+	4250 2750 3900 2750
+Wire Wire Line
+	3900 2850 4250 2850
+Wire Wire Line
+	4250 2950 3900 2950
+Wire Wire Line
+	6500 2650 6550 2650
+Wire Wire Line
+	6500 2750 6550 2750
+Wire Wire Line
+	6500 2850 6550 2850
+Wire Wire Line
+	6500 2950 6550 2950
 $EndSCHEMATC
