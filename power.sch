@@ -1,0 +1,265 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:VCC #PWR?
+U 1 1 6213E359
+P 4150 3250
+F 0 "#PWR?" H 4150 3100 50  0001 C CNN
+F 1 "VCC" V 4165 3377 50  0000 L CNN
+F 2 "" H 4150 3250 50  0001 C CNN
+F 3 "" H 4150 3250 50  0001 C CNN
+	1    4150 3250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Regulator_Linear:AMS1117-3.3 U?
+U 1 1 6213EB1B
+P 6100 3250
+F 0 "U?" H 6100 3492 50  0000 C CNN
+F 1 "AMS1117-3.3" H 6100 3401 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 6100 3450 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 6200 3000 50  0001 C CNN
+	1    6100 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6213FDEB
+P 5700 3450
+AR Path="/6212150F/6213FDEB" Ref="C?"  Part="1" 
+AR Path="/6213DFD4/6213FDEB" Ref="C?"  Part="1" 
+F 0 "C?" H 5600 3550 50  0000 L CNN
+F 1 "100nF" V 5850 3350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5738 3300 50  0001 C CNN
+F 3 "~" H 5700 3450 50  0001 C CNN
+	1    5700 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 6213FE5D
+P 5400 3450
+AR Path="/6212150F/6213FE5D" Ref="C?"  Part="1" 
+AR Path="/6213DFD4/6213FE5D" Ref="C?"  Part="1" 
+F 0 "C?" H 5300 3550 50  0000 L CNN
+F 1 "10uF" V 5550 3350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 5438 3300 50  0001 C CNN
+F 3 "~" H 5400 3450 50  0001 C CNN
+	1    5400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 62140191
+P 6450 3450
+AR Path="/6212150F/62140191" Ref="C?"  Part="1" 
+AR Path="/6213DFD4/62140191" Ref="C?"  Part="1" 
+F 0 "C?" H 6350 3550 50  0000 L CNN
+F 1 "100nF" V 6600 3350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6488 3300 50  0001 C CNN
+F 3 "~" H 6450 3450 50  0001 C CNN
+	1    6450 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 621406EF
+P 6750 3450
+AR Path="/6212150F/621406EF" Ref="C?"  Part="1" 
+AR Path="/6213DFD4/621406EF" Ref="C?"  Part="1" 
+F 0 "C?" H 6650 3550 50  0000 L CNN
+F 1 "10uF" V 6900 3350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6788 3300 50  0001 C CNN
+F 3 "~" H 6750 3450 50  0001 C CNN
+	1    6750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62144941
+P 5400 3650
+F 0 "#PWR?" H 5400 3400 50  0001 C CNN
+F 1 "GND" H 5405 3477 50  0000 C CNN
+F 2 "" H 5400 3650 50  0001 C CNN
+F 3 "" H 5400 3650 50  0001 C CNN
+	1    5400 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62144C75
+P 5700 3650
+F 0 "#PWR?" H 5700 3400 50  0001 C CNN
+F 1 "GND" H 5705 3477 50  0000 C CNN
+F 2 "" H 5700 3650 50  0001 C CNN
+F 3 "" H 5700 3650 50  0001 C CNN
+	1    5700 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62144E93
+P 6100 3650
+F 0 "#PWR?" H 6100 3400 50  0001 C CNN
+F 1 "GND" H 6105 3477 50  0000 C CNN
+F 2 "" H 6100 3650 50  0001 C CNN
+F 3 "" H 6100 3650 50  0001 C CNN
+	1    6100 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62145207
+P 6450 3650
+F 0 "#PWR?" H 6450 3400 50  0001 C CNN
+F 1 "GND" H 6455 3477 50  0000 C CNN
+F 2 "" H 6450 3650 50  0001 C CNN
+F 3 "" H 6450 3650 50  0001 C CNN
+	1    6450 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62145604
+P 6750 3650
+F 0 "#PWR?" H 6750 3400 50  0001 C CNN
+F 1 "GND" H 6755 3477 50  0000 C CNN
+F 2 "" H 6750 3650 50  0001 C CNN
+F 3 "" H 6750 3650 50  0001 C CNN
+	1    6750 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 3600 5400 3650
+Wire Wire Line
+	5700 3600 5700 3650
+Wire Wire Line
+	6100 3550 6100 3650
+Wire Wire Line
+	6450 3600 6450 3650
+Wire Wire Line
+	6750 3600 6750 3650
+$Comp
+L power:+3.3V #PWR?
+U 1 1 621461FB
+P 6750 3200
+F 0 "#PWR?" H 6750 3050 50  0001 C CNN
+F 1 "+3.3V" H 6765 3373 50  0000 C CNN
+F 2 "" H 6750 3200 50  0001 C CNN
+F 3 "" H 6750 3200 50  0001 C CNN
+	1    6750 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 3250 6750 3200
+Wire Wire Line
+	6400 3250 6450 3250
+Wire Wire Line
+	6750 3250 6750 3300
+Connection ~ 6750 3250
+Wire Wire Line
+	6450 3250 6450 3300
+Connection ~ 6450 3250
+Wire Wire Line
+	6450 3250 6750 3250
+Wire Wire Line
+	5400 3300 5400 3250
+Wire Wire Line
+	5400 3250 5700 3250
+Wire Wire Line
+	5700 3300 5700 3250
+Connection ~ 5700 3250
+Wire Wire Line
+	5700 3250 5800 3250
+$Comp
+L Transistor_FET:AO3401A Q?
+U 1 1 62147B60
+P 4750 3350
+F 0 "Q?" V 5092 3350 50  0000 C CNN
+F 1 "AO3401A" V 5001 3350 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 3275 50  0001 L CIN
+F 3 "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf" H 4750 3350 50  0001 L CNN
+	1    4750 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 621497A9
+P 4750 4050
+F 0 "#PWR?" H 4750 3800 50  0001 C CNN
+F 1 "GND" H 4755 3877 50  0000 C CNN
+F 2 "" H 4750 4050 50  0001 C CNN
+F 3 "" H 4750 4050 50  0001 C CNN
+	1    4750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6214A951
+P 5000 3450
+F 0 "R?" H 5070 3496 50  0000 L CNN
+F 1 "100K" H 5070 3405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4930 3450 50  0001 C CNN
+F 3 "~" H 5000 3450 50  0001 C CNN
+	1    5000 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 6214B479
+P 4750 3850
+F 0 "R?" H 4820 3896 50  0000 L CNN
+F 1 "100K" H 4820 3805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4680 3850 50  0001 C CNN
+F 3 "~" H 4750 3850 50  0001 C CNN
+	1    4750 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3550 4750 3650
+Wire Wire Line
+	4950 3250 5000 3250
+Wire Wire Line
+	5000 3250 5000 3300
+Wire Wire Line
+	5000 3600 5000 3650
+Wire Wire Line
+	5000 3650 4750 3650
+Connection ~ 4750 3650
+Wire Wire Line
+	4750 3650 4750 3700
+Wire Wire Line
+	4750 4000 4750 4050
+Wire Wire Line
+	5000 3250 5400 3250
+Connection ~ 5000 3250
+Connection ~ 5400 3250
+$Comp
+L Device:Fuse F?
+U 1 1 62151104
+P 4350 3250
+F 0 "F?" V 4153 3250 50  0000 C CNN
+F 1 "Fuse" V 4244 3250 50  0000 C CNN
+F 2 "Fuse:Fuse_0805_2012Metric" V 4280 3250 50  0001 C CNN
+F 3 "~" H 4350 3250 50  0001 C CNN
+	1    4350 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 3250 4550 3250
+Wire Wire Line
+	4150 3250 4200 3250
+$EndSCHEMATC
