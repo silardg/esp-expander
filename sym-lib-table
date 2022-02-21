@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name HR911105A)(type Legacy)(uri ${KIPRJMOD}/Lib/Symbols/HR911105A.lib)(options "")(descr ""))
+)
