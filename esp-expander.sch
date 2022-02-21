@@ -164,4 +164,26 @@ Wire Wire Line
 	3500 4050 4250 4050
 Wire Wire Line
 	4250 4150 3500 4150
+$Comp
+L Connector_Generic:Conn_01x16 J3
+U 1 1 6223BC0D
+P 9400 2900
+F 0 "J3" H 9480 2892 50  0000 L CNN
+F 1 "Conn_01x16" H 9480 2801 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 9400 2900 50  0001 C CNN
+F 3 "~" H 9400 2900 50  0001 C CNN
+	1    9400 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x16 J4
+U 1 1 6223C85B
+P 9400 4700
+F 0 "J4" H 9480 4692 50  0000 L CNN
+F 1 "Conn_01x16" H 9480 4601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 9400 4700 50  0001 C CNN
+F 3 "~" H 9400 4700 50  0001 C CNN
+	1    9400 4700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
