@@ -271,4 +271,23 @@ Wire Wire Line
 	4500 3500 4550 3500
 Wire Wire Line
 	4150 3500 4200 3500
+$Comp
+L Device:Jumper_NO_Small JP2
+U 1 1 6225CAF5
+P 6100 3150
+F 0 "JP2" H 6100 3335 50  0000 C CNN
+F 1 "3.3VJumper" H 6100 3244 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 6100 3150 50  0001 C CNN
+F 3 "~" H 6100 3150 50  0001 C CNN
+	1    6100 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 3500 5700 3150
+Wire Wire Line
+	5700 3150 6000 3150
+Wire Wire Line
+	6450 3500 6450 3150
+Wire Wire Line
+	6450 3150 6200 3150
 $EndSCHEMATC
